@@ -102,6 +102,17 @@ st.markdown("""
 
     /* Divider */
     hr { border-color: #e5e7eb; }
+
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+        .main-title { font-size: 1.3rem; }
+        .sub-title { font-size: 0.85rem; }
+        .stat-number { font-size: 1.4rem; }
+        .stat-card { padding: 12px 6px; }
+        .field-card { padding: 10px 12px; }
+        .stButton > button { width: 100%; font-size: 13px; }
+        .stTextInput > div > input { font-size: 13px; }
+    }
 </style>
 """, unsafe_allow_html=True)
 
